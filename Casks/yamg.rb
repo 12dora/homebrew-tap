@@ -1,6 +1,6 @@
 cask "yamg" do
-  version "0.10.3"
-  sha256 "04fa84da76a28cc04434d45617a6eea22193d5dc3285d10c2acdc8bffa0e898f"
+  version "1.0.0-beta.1"
+  sha256 "578d26b3a07fe99738d876b7602e0594b34d3a4a4a070bdc8bcf3a0ac4f6908f"
 
   url "https://github.com/12dora/yamg/releases/download/v#{version}/YAMG-#{version}.dmg"
   name "YAMG"
