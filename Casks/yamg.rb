@@ -1,16 +1,6 @@
-# TODO before first publish:
-#   1. Cut a GitHub release at https://github.com/12dora/yamg/releases
-#      with asset name `YAMG-<version>.dmg`.
-#   2. Compute the DMG hash:  shasum -a 256 YAMG-<version>.dmg
-#   3. Replace `version` and `sha256` below with the real values.
-#   4. Validate locally:
-#        brew audit --new-cask Casks/yamg.rb
-#        brew install --cask ./Casks/yamg.rb
-#   5. Commit and push.
-
 cask "yamg" do
   version "0.10.3"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "04fa84da76a28cc04434d45617a6eea22193d5dc3285d10c2acdc8bffa0e898f"
 
   url "https://github.com/12dora/yamg/releases/download/v#{version}/YAMG-#{version}.dmg"
   name "YAMG"
